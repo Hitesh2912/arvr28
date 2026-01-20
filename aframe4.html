@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script src="E:\aframe-28\aframe.min.js"></script>
+</head>
+<body>
+    <a-scene>
+        <a-entity position="0 1.6 4">
+            <a-camera></a-camera>
+        </a-entity>
+        <a-light type="directional" position="1 1 1" intinsity="0.8"></a-light>
+        <a-sphere position="-5 1.25 -4" radius="0.75" color="#EF2555E" animation="property:rotation;to:0 360 0;loop:true;dur:2000"></a-sphere>
+           <a-torus position="-5 1.25 -4" radius="1"  color="#FF455D" animation="property: rotation;
+             from: 0 0 0;
+             to: 0 360 0;
+             loop: true;
+             dur: 5000;
+             easing: linear"></a-torus>
+
+      
+           <a-sphere position="0 1.25 -4" radius="0.75" color="#EF2455E" animation="property:rotation;to:0 360 0;loop:true;dur:2000"></a-sphere>
+           <a-torus position="0 1.25 -4" radius="1"  color="#FF755D" animation="property: rotation;
+             from: 0 0 0;
+             to: 0 360 0;
+             loop: true;
+             dur: 5000;
+             easing: linear"></a-torus>
+             <a-sphere position="5 1.25 -4" radius="0.75" color="#EF2555E" animation="property:rotation;to:0 360 0;loop:true;dur:2000"></a-sphere>
+           <a-torus position="5 1.25 -4" radius="1"  color="#FF55hD" animation="property: rotation;
+             from: 0 0 0;
+             to: 0 360 0;
+             loop: true;
+             dur: 5000;
+             easing: linear"></a-torus>
+
+
+     
+      <a-plane position="0 0 1" rotation="-90 0 0" width="10" height="10" color="#7B5C8A"></a-plane>
+      <a-sky color="#ECECEC"></a-sky>
+         
+    </a-scene>
+ 
+</body>
+</html>
